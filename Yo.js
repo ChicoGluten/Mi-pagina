@@ -80,7 +80,7 @@ window.addEventListener('load', function(){
         IMGp.forEach(function(producto) {
     
             var plantilla = `
-                <div style="width: 25%; height: 15%; max-height: 500px; box-sizing: border-box; text-align: center; padding: 15px">
+                <div style="width: 30%; height: 15%; max-height: 500px; box-sizing: border-box; text-align: center; padding: 15px">
                     <img src="${producto.img}" alt="${producto.nombre}" style="width: 250px; height: 300px; box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4); background: white; border-radius: 15%; border: 5px solid pink;">
                     
                     <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Precio: ${producto.precio} USD</h2>
