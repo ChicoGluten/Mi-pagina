@@ -87,7 +87,7 @@ window.addEventListener('load', function(){
                     <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 17px;">${producto.nombre}</p>
                     
                     <div style="max-width: 175px; width: 175px; max-height: 50px; height: 50px; margin: auto">
-                        <button style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4); font-size: 20px; width: 90%; height: 80%; background: #009bde81; border: 2px solid black; border-radius: 20%; font-family: Georgia, 'Times New Roman', Times, serif;">Añadir al carrito</button>
+                        <button style="box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4); font-size: 15px; width: 90%; height: 80%; background: #009bde81; border: 2px solid black; border-radius: 20%; font-family: Georgia, 'Times New Roman', Times, serif;">Añadir al carrito</button>
                     </div>
                 </div>
             `;
