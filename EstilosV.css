@@ -28,9 +28,8 @@ h1{
 }
 
 #global{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 15%;
+
+    margin: 0px auto;
     width: 70%;
     padding: 20px;
     background: white;
@@ -52,6 +51,7 @@ h1{
     background: #009bde81;
     border-radius: 10%;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    text-wrap: nowrap;
 
 }
 
@@ -77,15 +77,13 @@ h1{
 /*SECCION MEDIA, CONTENIDO DE LA PAGINA*/
 
 #Media{
-    width: 700px;
+
+    width: 80%;
     font-size: 20px;
     margin: auto;
-    margin-right: 100px;
     padding: 2%;
 
 
-    
-    
 }
 
 #Media p{
@@ -94,43 +92,40 @@ h1{
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
     text-align: center;
     font-family:  Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    padding: 20px;
+    font-size: 24px;
+    padding: 10px;
     border-radius: 10%;
 
 }
 
 #izq{
     
-    width: 27%;
-    height: 70%;
-    float: left;
-    margin: 100px;
-    padding: 10px;
+    width: 40%;
+    margin: 0px auto;
     margin-top: 5%;
-
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 3px solid black;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    
 
 }
 
 #izq img{
-    border-radius: 40%;
-    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
-    border: solid 3px rgb(0, 0, 0);
+    width: 60%;
+
 
 }
-
-
-
-
-
 
 
 
 /*Parte baja de la pagina*/
 
 footer{
-    width: 60%;
-    margin-left: 21%;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 70%;
     border-radius: 20%;
     display: flex;
     background: #009bde81;
@@ -139,8 +134,9 @@ footer{
 }
 
 footer p{
-    margin-left: 40px;
-    width: 60%;
+    margin: 0px auto;
+    margin-top: 18px;
+    width: 65%;
     font-size: 23px;
     
 }
@@ -161,4 +157,3 @@ footer div img{
     
 
 }
-

@@ -67,7 +67,7 @@ window.addEventListener('load', function(){
 
         const IMGp = [
             { nombre: 'Sérum Hialurónico', img: 'imagenes/a1.png', precio: 15 },
-            { nombre: 'Crema Antimanchas Neutrogena', img: 'imagenes/a2.png', precio: 17 },
+            { nombre: 'Crema Antimanchas', img: 'imagenes/a2.png', precio: 17 },
             { nombre: 'Limpiador Hidratante', img: 'imagenes/a3.png', precio: 20 },
             { nombre: 'Mascarilla de Arcilla', img: 'imagenes/a4.png', precio: 50 },
             { nombre: 'Spray Hidratante Payot', img: 'imagenes/a5.png', precio: 5 },
@@ -80,10 +80,10 @@ window.addEventListener('load', function(){
         IMGp.forEach(function(producto) {
     
             var plantilla = `
-                <div style="width: 30%; height: 15%; max-height: 500px; box-sizing: border-box; text-align: center; padding: 15px">
-                    <img src="${producto.img}" alt="${producto.nombre}" style="width: 250px; height: 300px; box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4); background: white; border-radius: 15%; border: 5px solid pink;">
+                <div style="width: 30%; max-width: 250px; height: 15%; max-height: 500px; box-sizing: border-box; text-align: center; padding: 15px">
+                    <img src="${producto.img}" alt="${producto.nombre}" style="width: 200px; height: 190px; box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4); background: white; border-radius: 15%; border: 5px solid pink;">
                     
-                    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Precio: ${producto.precio} USD</h2>
+                    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">${producto.precio} USD</h2>
                     <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 17px;">${producto.nombre}</p>
                     
                     <div style="max-width: 175px; width: 175px; max-height: 50px; height: 50px; margin: auto">

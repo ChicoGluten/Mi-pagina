@@ -1,4 +1,6 @@
 /*CABEZERA, TITULO Y*/
+
+
 body{
     background: pink;
 }
@@ -40,9 +42,7 @@ h1{
 }
 
 #global{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 15%;
+    margin: 0px auto;
     width: 70%;
     padding: 20px;
     background: white;
@@ -106,8 +106,9 @@ h1{
 /*Parte baja de la pagina*/
 
 footer{
-    width: 60%;
-    margin-left: 21%;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 70%;
     border-radius: 20%;
     display: flex;
     background: #009bde81;
@@ -116,8 +117,9 @@ footer{
 }
 
 footer p{
-    margin-left: 40px;
-    width: 60%;
+    margin: 0px auto;
+    margin-top: 18px;
+    width: 65%;
     font-size: 23px;
     
 }

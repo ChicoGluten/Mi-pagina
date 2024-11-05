@@ -28,13 +28,13 @@ h1{
 }
 
 #global{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 15%;
+
+    margin: 0px auto;
     width: 70%;
     padding: 20px;
     background: white;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    
     
 
 }
@@ -52,6 +52,7 @@ h1{
     background: #009bde81;
     border-radius: 10%;
     box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    text-wrap: nowrap;
 
 }
 
@@ -75,8 +76,7 @@ h1{
 }
 
 #Yo{
-    width: 30%;
-    height: 600px; 
+    width: 22%;
     margin: 100px;
     margin-top: 3%;
     float: right;
@@ -105,7 +105,7 @@ h1{
 /*SECCION MEDIA, CONTENIDO DE LA PAGINA*/ 
 
 #Media{
-    width: 800px;
+    width: 55%;
     font-size: 20px;
     margin: 100px;
     font-family:  Georgia, 'Times New Roman', Times, serif;
@@ -122,9 +122,12 @@ h1{
 
 }
 
+/*Parte baja de la pagina*/
+
 footer{
-    width: 60%;
-    margin-left: 21%;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 70%;
     border-radius: 20%;
     display: flex;
     background: #009bde81;
@@ -133,8 +136,9 @@ footer{
 }
 
 footer p{
-    margin-left: 40px;
-    width: 60%;
+    margin: 0px auto;
+    margin-top: 18px;
+    width: 65%;
     font-size: 23px;
     
 }
